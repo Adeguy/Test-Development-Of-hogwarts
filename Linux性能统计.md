@@ -1,4 +1,33 @@
-## [root@wxgdfwq-01 soft]# top
+#### [ck281183@shell.ceshiren.com ~]$ ll
+total 0
+#### [ck281183@shell.ceshiren.com ~]$ pwd
+/home/ck281183
+#### [ck281183@shell.ceshiren.com ~]$ mkdir newfile
+#### [ck281183@shell.ceshiren.com ~]$ ll
+total 4
+drwxrwxr-x 2 ck281183 ck281183 4096 Nov 28 16:18 newfile
+#### [ck281183@shell.ceshiren.com ~]$ cd newfile/
+#### [ck281183@shell.ceshiren.com newfile]$ touch newtext.txt
+#### [ck281183@shell.ceshiren.com newfile]$ ll
+total 0
+-rw-rw-r-- 1 ck281183 ck281183 0 Nov 28 16:20 newtext.txt
+#### [ck281183@shell.ceshiren.com newfile]$ echo 123 >newtext.txt 
+#### [ck281183@shell.ceshiren.com newfile]$ cat newtext.txt 
+123
+#### [ck281183@shell.ceshiren.com newfile]$ echo 123234 >>newtext.txt 
+#### [ck281183@shell.ceshiren.com newfile]$ cat newtext.txt 
+123
+123234
+#### [ck281183@shell.ceshiren.com newfile]$ vim newtext.txt 
+#### [ck281183@shell.ceshiren.com newfile]$ cat newtext.txt 
+123
+123
+123456
+#### [ck281183@shell.ceshiren.com newfile]$ chmod 755 newtext.txt 
+#### [ck281183@shell.ceshiren.com newfile]$ ll
+total 4
+-rwxr-xr-x 1 ck281183 ck281183 15 Nov 28 16:29 newtext.txt
+#### [root@wxgdfwq-01 soft]# top
 top - 00:06:59 up 10:06,  1 user,  load average: 0.00, 0.03, 0.05
 Tasks: 157 total,   1 running, 156 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
@@ -36,9 +65,9 @@ KiB Swap:  1048572 total,  1048572 free,        0 used.   338684 avail Mem
     43 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kmpath_rdacd                                     
     44 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kaluad                                           
     45 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kpsmoused                                        
-## [root@wxgdfwq-01 soft]# uptime
+#### [root@wxgdfwq-01 soft]# uptime
  00:07:25 up 10:07,  1 user,  load average: 0.00, 0.02, 0.05
-## [root@wxgdfwq-01 soft]# ps aux 
+#### [root@wxgdfwq-01 soft]# ps aux 
 USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root          1  0.0  0.4 126128  4568 ?        Ss   11月28   0:01 /usr/lib/systemd/systemd --switched-root --system 
 root          2  0.0  0.0      0     0 ?        S    11月28   0:00 [kthreadd]
@@ -197,17 +226,17 @@ root      12241  0.0  0.0      0     0 ?        R    01:16   0:00 [kworker/0:3]
 root      12294  0.0  0.0      0     0 ?        S    01:21   0:00 [kworker/0:0]
 root      12334  0.0  0.0 108052   360 ?        S    01:26   0:00 sleep 60
 root      12336  0.0  0.1 155448  1876 pts/0    R+   01:27   0:00 ps aux
-## [root@wxgdfwq-01 soft]# free -m > memory_used.txt
-## [root@wxgdfwq-01 soft]# ll
+#### [root@wxgdfwq-01 soft]# free -m > memory_used.txt
+#### [root@wxgdfwq-01 soft]# ll
 总用量 8
 -rw-r--r-- 1 root root 204 11月 29 01:29 memory_used.txt
 -rw-r--r-- 1 root root  39 11月 28 22:13 test.txt
-## [root@wxgdfwq-01 soft]# wc -c memory_used.txt 
+#### [root@wxgdfwq-01 soft]# wc -c memory_used.txt 
 204 memory_used.txt
-## [root@wxgdfwq-01 soft]# cat memory_used.txt | wc -c
+#### [root@wxgdfwq-01 soft]# cat memory_used.txt | wc -c
 204
-## [root@wxgdfwq-01 soft]# sort -r -u -b memory_used.txt > sorted_memory_used.txt
-## [root@wxgdfwq-01 soft]# ps aux
+#### [root@wxgdfwq-01 soft]# sort -r -u -b memory_used.txt > sorted_memory_used.txt
+#### [root@wxgdfwq-01 soft]# ps aux
 USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root          1  0.0  0.4 126128  4568 ?        Ss   11月28   0:01 /usr/lib/systemd/systemd --switched-root --system 
 root          2  0.0  0.0      0     0 ?        S    11月28   0:00 [kthreadd]
