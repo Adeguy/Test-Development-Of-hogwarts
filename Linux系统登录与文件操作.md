@@ -1,4 +1,4 @@
-[ck281183@shell.ceshiren.com ~]$ ll
+#[ck281183@shell.ceshiren.com ~]$ ll
 total 0
 [ck281183@shell.ceshiren.com ~]$ pwd
 /home/ck281183
