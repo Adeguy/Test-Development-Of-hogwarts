@@ -40,6 +40,6 @@ KiB Swap:        0 total,        0 free,        0 used.  2868504 avail Mem
 8586
 ### [ck281183@shell.ceshiren.com home]$ netstat -anp|awk 'NR>2{print $6}'|grep -i -E 'connect|listen'|uniq -c
 (No info could be read for "-p": geteuid()=10474 but you should be root.)
-      7 LISTEN
-     58 CONNECTED
+     ** 7 LISTEN
+     58 CONNECTED**
 
