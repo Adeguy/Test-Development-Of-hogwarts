@@ -1,5 +1,5 @@
 Linux与Bash编程
-[ck281183@shell.ceshiren.com ~]$ top
+### [ck281183@shell.ceshiren.com ~]$ top
 top - 02:14:42 up 4 days, 15:55,  4 users,  load average: 0.10, 0.17, 0.19
 Tasks: 107 total,   2 running, 105 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  4.0 us,  3.7 sy,  0.0 ni, 92.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
@@ -36,9 +36,9 @@ KiB Swap:        0 total,        0 free,        0 used.  2868504 avail Mem
    28 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 edac-poller                                                 
    29 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 watchdogd                                                   
    36 root      20   0       0      0      0 S   0.0  0.0   0:02.30 kswapd0            
-[ck281183@shell.ceshiren.com home]$ ls |wc -w
+### [ck281183@shell.ceshiren.com home]$ ls |wc -w
 8586
-[ck281183@shell.ceshiren.com home]$ netstat -anp|awk 'NR>2{print $6}'|grep -i -E 'connect|listen'|uniq -c
+### [ck281183@shell.ceshiren.com home]$ netstat -anp|awk 'NR>2{print $6}'|grep -i -E 'connect|listen'|uniq -c
 (No info could be read for "-p": geteuid()=10474 but you should be root.)
       7 LISTEN
      58 CONNECTED
