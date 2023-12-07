@@ -42,6 +42,7 @@ KiB Swap:        0 total,        0 free,        0 used.  2868504 avail Mem
 (No info could be read for "-p": geteuid()=10474 but you should be root.)
      ** 7 LISTEN
      58 CONNECTED**
-![Uploading image.png…]()
+![image](https://github.com/Adeguy/Test-Development-Of-hogwarts/assets/114832443/190fbc02-ee86-4a6b-b104-a638b8624bc2)
+
 
 
