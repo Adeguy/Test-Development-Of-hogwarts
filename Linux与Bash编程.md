@@ -42,6 +42,11 @@ KiB Swap:        0 total,        0 free,        0 used.  2868504 avail Mem
 (No info could be read for "-p": geteuid()=10474 but you should be root.)
      ** 7 LISTEN
      58 CONNECTED**
+
+
+### 使用 bash 实现自动创建目录并生成文件。
+### 使用 bash 判断目录是否存在。
+
 ![image](https://github.com/Adeguy/Test-Development-Of-hogwarts/assets/114832443/190fbc02-ee86-4a6b-b104-a638b8624bc2)
 
 
