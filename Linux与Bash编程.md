@@ -42,4 +42,6 @@ KiB Swap:        0 total,        0 free,        0 used.  2868504 avail Mem
 (No info could be read for "-p": geteuid()=10474 but you should be root.)
      ** 7 LISTEN
      58 CONNECTED**
+![Uploading image.png…]()
+
 
